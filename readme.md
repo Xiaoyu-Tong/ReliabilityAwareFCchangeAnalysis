@@ -27,6 +27,10 @@ For classification, the task loss is:
 L_{task-classification} ={1\over N}\Bigl(\sum \ln{(e^{\Delta FC \cdot \beta} + 1)} - Y^\top \Delta FC \cdot \beta\Bigr)
 ```
 
+For regression, the task loss is:
+```math
+L_{task-regression} = 
+```
 
 ### Unsupervised learning
 

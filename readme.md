@@ -74,7 +74,7 @@ ReliabilityAwareFCchangeAnalysis/
 ### Regression
 
 
-### Unsupervised learning (contrastive variance quotient analysis)
+### Unsupervised learning (CVQ analysis)
 
 
 ## Contact

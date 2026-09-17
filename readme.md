@@ -35,8 +35,11 @@ L_{task-regression} = \lVert Y - \Delta FC \cdot \beta \rVert^2_2
 L0-regularization is implemented on both FC dimension loadings and predictive weights to enhance generalizability and interpretability.
 
 ### Unsupervised learning
-
-
+In this study, we used reliability-aware unsupervised learning to identify active-drug-specific FC changes -- this analysis involves no prediction tasks.
+Essentially, we seek FC dimensions showing significant changes in the active drug arm and minimal changes in the placebo arm and test-retest differences. This learning objective can be formularized as:
+```math
+w = \arg\max_{\lVert w\rVert_2 = 1} {Var(\Delta FC_{drug})\over Var(\Delta FC_{placebo}) + Var(\Delta FC_{test-retest})}
+```
 
 > See corresponding Methods sections and Appendix A of the accompanying paper for math details.
 

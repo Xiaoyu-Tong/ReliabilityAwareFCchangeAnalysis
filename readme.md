@@ -77,8 +77,10 @@ updateG_Classification.m is called inside optimizeClassification_ContinuousSpars
 optimizeRegression_Initialization.m --> optimizeRegression_ContinuousSparsification.m --> optimizeRegression_FineTuning.m
 
 ### Unsupervised learning (CVQ analysis)
-Optimization is achieved by CVQ.m
-demoMain_CVQ.m demonstrates the context of CVQ implementation
+Optimization is achieved by CVQ.m  
+
+
+\demoMain_CVQ.m demonstrates the context of CVQ implementation
 
 ## Contact
 tongxy@stanford.edu

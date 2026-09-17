@@ -69,13 +69,16 @@ ReliabilityAwareFCchangeAnalysis/
 ## Optimization Pipelines
 
 ### Classification
+optimizeClassification_Initialization.m --> optimizeClassification_ContinuousSparsification.m --> optimizeClassification_FineTuning.m
 
+updateG_Classification.m is called inside optimizeClassification_ContinuousSparsification.m
 
 ### Regression
-
+optimizeRegression_Initialization.m --> optimizeRegression_ContinuousSparsification.m --> optimizeRegression_FineTuning.m
 
 ### Unsupervised learning (CVQ analysis)
-
+Optimization is achieved by CVQ.m
+demoMain_CVQ.m demonstrates the context of CVQ implementation
 
 ## Contact
 tongxy@stanford.edu

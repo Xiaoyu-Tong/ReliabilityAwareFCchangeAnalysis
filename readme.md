@@ -49,20 +49,20 @@ w = \arg\max_{\lVert w\rVert_2 = 1} {Var(\Delta FC_{drug})\over Var(\Delta FC_{p
 ReliabilityAwareFCchangeAnalysis/
 ├── Codes/
 │   ├── CVQ/  # Contrastive Variance Quotient Analysis (active-drug-specific FC change identification)
-│   │   ├── CVQ.m. # Optimization algorithm for CVQ
-│   │   └── demoMain_CVQ.m. # Conceptual demo of CVQ implementation
+│   │   ├── CVQ.m  # Optimization algorithm for CVQ
+│   │   └── demoMain_CVQ.m  # Conceptual demo of CVQ implementation
 │   ├── Classification/
-│   │   ├── optimizeClassification_ContinuousSparsification.m. # 
-│   │   ├── optimizeClassification_FineTuning.m
-│   │   ├── optimizeClassification_Initialization.m
-│   │   └── updateG_Classification.m
+│   │   ├── optimizeClassification_ContinuousSparsification.m  # main optimization procedure
+│   │   ├── optimizeClassification_FineTuning.m  # Auxiliary function for L0-regularization
+│   │   ├── optimizeClassification_Initialization.m  # Initialization algorithm
+│   │   └── updateG_Classification.m  # Auxiliary function for main optimization procedure
 │   └── Regression/
-│       ├── optimizeRegression_ContinuousSparsification.m
-│       ├── optimizeRegression_FineTuning.m
-│       └── optimizeRegression_Initialization.m
+│       ├── optimizeRegression_ContinuousSparsification.m  # main optimization procedure
+│       ├── optimizeRegression_FineTuning.m  # Auxiliary function for L0-regularization
+│       └── optimizeRegression_Initialization.m  # Initialization algorithm
 ├── assets/
-│   └── Fig1.jpeg
-└── readme.md
+│   └── Fig1.jpeg  # workflow figure
+└── readme.md  # this file
 ```
 
 

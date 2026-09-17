@@ -17,5 +17,5 @@ The most straightforward way to characterize treatment-induced FC changes may be
 ## Project Structure
 
 
-## Contact
+### Contact
 tongxy@stanford.edu

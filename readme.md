@@ -32,6 +32,8 @@ For regression, the task loss is:
 L_{task-regression} = \lVert Y - \Delta FC \cdot \beta \rVert^2_2
 ```
 
+L0-regularization is implemented on both FC dimension loadings and predictive weights to enhance generalizability and interpretability.
+
 ### Unsupervised learning
 
 

@@ -45,6 +45,39 @@ w = \arg\max_{\lVert w\rVert_2 = 1} {Var(\Delta FC_{drug})\over Var(\Delta FC_{p
 
 ## Project Structure
 
+```text
+ReliabilityAwareFCchangeAnalysis/
+├── Codes/
+│   ├── CVQ/  # Contrastive Variance Quotient Analysis (active-drug-specific FC change identification)
+│   │   ├── CVQ.m. # Optimization algorithm for CVQ
+│   │   └── demoMain_CVQ.m. # Conceptual demo of CVQ implementation
+│   ├── Classification/
+│   │   ├── optimizeClassification_ContinuousSparsification.m. # 
+│   │   ├── optimizeClassification_FineTuning.m
+│   │   ├── optimizeClassification_Initialization.m
+│   │   └── updateG_Classification.m
+│   └── Regression/
+│       ├── optimizeRegression_ContinuousSparsification.m
+│       ├── optimizeRegression_FineTuning.m
+│       └── optimizeRegression_Initialization.m
+├── assets/
+│   └── Fig1.jpeg
+└── readme.md
+```
+
+
+.
+├── assets/
+│   └── flowchart.png                   # Method overview figure
+├── data.py                             # Shared input loading and score aggregation
+├── hyperparameter_config.json          # Search spaces and training settings
+├── models.py                           # cVAE and GCCA model components
+├── 1_hyperparameter_search.py          # TPE and grid search
+├── 2_DeCoDE_pipeline.py                # Full-data final fit and biotyping
+├── 3_independent_validation.py         # Independent-cohort validation
+├── requirements.txt                    # Python dependencies
+└── README.md                           # This file
+
 ## Optimization Pipelines
 
 ### Classification

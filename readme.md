@@ -21,8 +21,20 @@ Reliability-aware FC change analysis is a versatile framework that can be applie
 
 
 
+> See Appendix A of the accompanying paper for math details.
+
 ## Project Structure
 
+## Pipelines
 
-### Contact
+### Classification
+
+
+### Regression
+
+
+### Unsupervised learning (contrastive variance quotient analysis)
+
+
+## Contact
 tongxy@stanford.edu

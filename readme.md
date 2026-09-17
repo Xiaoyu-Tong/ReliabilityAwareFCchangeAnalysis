@@ -24,7 +24,7 @@ L_{SNR} = {P_{noise}\over P_{signal}}
 
 For classification, the task loss is:
 ```math
-L_{task-classification} = Y^\top \Delta FC \cdot \beta
+L_{task-classification} ={1\over N}\Bigl(\sum \ln{(e^{\Delta FC \cdot \beta} + 1)} - Y^\top \Delta FC \cdot \beta\Bigr)
 ```
 
 

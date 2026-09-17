@@ -11,21 +11,32 @@ The most straightforward way to characterize treatment-induced FC changes may be
 ## Formulation
 Reliability-aware FC change analysis is a versatile framework that can be applied to either classification, regression, or unsupervised learning tasks. Essentially, it represents a family of learning objectives integrating task performance with reliability assessment. In this study, reliability of FC changes is encouraged by maximizing signal-to-noise ratio (SNR), where signal is defined as between-timepoint FC differences, and noise as within-timepoint test-retest FC differences. Namely, we sought FC change dimensions with significant, clinically meaningful between-timepoint differences and minimal test-retest variability.
 
-### The classification case
+### Supervised learning
+In this study, reliability-aware predictive learning combines three learning objectives in the overall loss function -- SNR constraint, prediction task, and regularization:
+```math
+L = L_{SNR} + L_{task} + L_{reg}
+```
+
+Since the loss function is to be minimized, the SNR loss is defined as the ratio between noise power and signal power:
+```math
+L_{SNR} = {P_{noise}\over P_{signal}}
+```
+
+For classification, the task loss is:
+```math
+L_{task-classification} = Y^\top \Delta FC \cdot \beta
+```
 
 
-### The regression case
-
-
-### The unsupervised learning case
+### Unsupervised learning
 
 
 
-> See Appendix A of the accompanying paper for math details.
+> See corresponding Methods sections and Appendix A of the accompanying paper for math details.
 
 ## Project Structure
 
-## Pipelines
+## Optimization Pipelines
 
 ### Classification
 

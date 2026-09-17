@@ -66,18 +66,6 @@ ReliabilityAwareFCchangeAnalysis/
 ```
 
 
-.
-├── assets/
-│   └── flowchart.png                   # Method overview figure
-├── data.py                             # Shared input loading and score aggregation
-├── hyperparameter_config.json          # Search spaces and training settings
-├── models.py                           # cVAE and GCCA model components
-├── 1_hyperparameter_search.py          # TPE and grid search
-├── 2_DeCoDE_pipeline.py                # Full-data final fit and biotyping
-├── 3_independent_validation.py         # Independent-cohort validation
-├── requirements.txt                    # Python dependencies
-└── README.md                           # This file
-
 ## Optimization Pipelines
 
 ### Classification

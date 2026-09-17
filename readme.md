@@ -80,7 +80,7 @@ optimizeRegression_Initialization.m --> optimizeRegression_ContinuousSparsificat
 Optimization is achieved by CVQ.m  
 
 
-demoMain_CVQ.m demonstrates the context of CVQ implementation
+demoMain_CVQ.m demonstrates the context of CVQ implementation.
 
 ## Contact
 tongxy@stanford.edu

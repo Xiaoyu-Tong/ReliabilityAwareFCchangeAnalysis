@@ -1,7 +1,7 @@
 # A Reliability-Aware Framework for Treatment-Induced Functional Connectivity (FC) Change Analysis
 
 Code Repo for the accompanying paper [Early Brain Functional Connectivity Changes Induced by Antidepressants and Placebo](https://doi.org/10.1038/s44220-026-00729-y), which demonstrates its applications in antidepressant treatment.
-> Tong, Xiaoyu, Gregory A. Fonzo, Nancy B. Carlisle, Hua Xie, Yevgeny Berdichevsky, Corey J. Keller, Desmond J. Oathes, Charles B. Nemeroff, and Yu Zhang. "Early Brain Functional Connectivity Changes Induced by Antidepressants and Placebo." bioRxiv (2025).
+> Tong, X., Fonzo, G.A., Carlisle, N.B. et al. Early brain functional connectivity changes induced by antidepressants and placebo. Nature Mental Health (2026). https://doi.org/10.1038/s44220-026-00729-y
 
 ## Workflow
 <img src="/assets/Fig1.jpeg" width="1000">
